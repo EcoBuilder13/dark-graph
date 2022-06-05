@@ -18,11 +18,7 @@
   "icon": "assets/darkgraph/icon.png",
 
   "environment": "client",
-  "entrypoints": {
-    "main": [
-      "net.mchorizons.darkgraph.DarkGraph"
-    ]
-  },
+
   "mixins": [
     "darkgraph.mixins.json"
   ],
@@ -30,8 +26,6 @@
 
   "depends": {
     "fabricloader": ">=0.12.2",
-    "fabric": "*",
-    "minecraft": "1.18.x",
-    "java": ">=17"
+    "minecraft": "1.18.x"
   }
 }
