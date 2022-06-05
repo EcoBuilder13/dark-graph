@@ -1,0 +1,39 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "net.mchorizons",
+		"id": "darkgraph",
+		"version": "${version}",
+		"metadata": {
+			"name": "Dark Graph",
+			"description": "Changes the debug frame graphs to use a dark theme.",
+			"contributors": {
+				"EcoBuilder13": "Owner"
+			},
+			"contact": {
+				"homepage": "https://modrinth.com/mod/dark-graph",
+				"issues": "https://github.com/EcoBuilder13/dark-graph/issues",
+				"sources": "https://github.com/EcoBuilder13/dark-graph"
+			},
+			"license": "BSD",
+			"icon": "assets/darkgraph/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+
+		"environment": "client",
+
+		"mixin": "darkgraph.mixins.json",
+		"access_widener": "darkgraph.aw",
+
+		"depends": [
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.x"
+			},
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			}
+		]
+	}
+}
