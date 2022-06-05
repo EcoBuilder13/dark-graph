@@ -20,7 +20,7 @@
   "environment": "client",
   "entrypoints": {
     "main": [
-      "ga.mchorizons.darkgraph.DarkGraph"
+      "net.mchorizons.darkgraph.DarkGraph"
     ]
   },
   "mixins": [

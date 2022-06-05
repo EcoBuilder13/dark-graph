@@ -1,4 +1,4 @@
-package ga.mchorizons.darkgraph;
+package net.mchorizons.darkgraph;
 
 import net.fabricmc.api.ModInitializer;
 

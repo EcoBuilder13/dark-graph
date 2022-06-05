@@ -1,4 +1,4 @@
-package ga.mchorizons.darkgraph.mixin;
+package net.mchorizons.darkgraph.mixin;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
