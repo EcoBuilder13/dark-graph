@@ -6,6 +6,9 @@ A client mod that changes the debug frame graphs to use a dark theme. To access 
 ![example](https://user-images.githubusercontent.com/68478692/150698721-4bc8adae-b9b4-44a2-b741-2b72d5c80e46.png)
 
 
+## Inspiration
+This mod was inspired by an ~~mistake~~ intentional design choice made by FoundationGames when making a [promotional image](https://cdn.discordapp.com/attachments/806436354799173663/840112305928011776/enhanced_bells.png) for his mod [Enhanced Block Entities](https://modrinth.com/mod/ebe).
+
 ## Compatibility
 This mod should work with almost any other mod unless if it modifies the part of the code this mod interfaces. Compatibility has been tested with other mods such as [Sodium](https://modrinth.com/mod/sodium) and [Better F3](https://modrinth.com/mod/betterf3). If you run into issues please report it on the [issue tracker](https://github.com/EcoBuilder13/dark-graph/issues).
 
