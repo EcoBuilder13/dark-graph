@@ -18,12 +18,7 @@
 			"license": "BSD-3-Clause",
 			"icon": "assets/darkgraph/icon.png"
 		},
-		"intermediate_mappings": "net.fabricmc:intermediary",
-
-		"environment": "client",
-
-		"mixin": "darkgraph.mixins.json",
-		"access_widener": "darkgraph.aw",
+		"intermediate_mappings": "net.fabricmc:intermediary",		
 
 		"depends": [
 			{
@@ -35,5 +30,12 @@
 				"versions": ">=0.16.0-"
 			}
 		]
-	}
+	},
+	
+	"mixin": "darkgraph.mixins.json",
+	"access_widener": "darkgraph.aw",
+	
+	"minecraft": {
+        "environment": "client"
+    }
 }
