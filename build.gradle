@@ -22,10 +22,6 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 }
 
-loom {
-	accessWidenerPath = file("src/main/resources/darkgraph.aw")
-}
-
 processResources {
 	inputs.property "mod_version", version
 

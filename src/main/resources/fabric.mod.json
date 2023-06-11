@@ -22,7 +22,6 @@
   "mixins": [
     "darkgraph.mixins.json"
   ],
-  "accessWidener": "darkgraph.aw",
 
   "depends": {
     "fabricloader": ">=0.14.18",

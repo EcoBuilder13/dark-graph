@@ -33,7 +33,6 @@
 	},
 	
 	"mixin": "darkgraph.mixins.json",
-	"access_widener": "darkgraph.aw",
 	
 	"minecraft": {
         "environment": "client"
