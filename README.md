@@ -1,9 +1,9 @@
 # Dark Graph
-![build](https://img.shields.io/github/actions/workflow/status/EcoBuilder13/dark-graph/build.yml?branch=1.19.x&logo=github&style=for-the-badge)
+[![build](https://img.shields.io/github/actions/workflow/status/EcoBuilder13/dark-graph/build.yml?branch=1.20.x&logo=github&style=for-the-badge)](https://github.com/EcoBuilder13/dark-graph/actions) [![modrinth](https://img.shields.io/modrinth/dt/dark-graph?logo=modrinth&style=for-the-badge)](https://modrinth.com/mod/dark-graph)
 
 A client mod that changes the debug frame graphs to use a dark theme. To access the frame graphs hold `alt` then press `F3`. If you are connected to a dedicated server you will not see the graph on the right as it's the TPS graph and is not sent to the client. If you would like to see it on you client you can install [Server Tick](https://modrinth.com/mod/servertick) on the server if it runs Fabric. Once you have done that all OPed players with Server Tick installed will be able to see it. You can also configure Server Tick to send it to all clients with the mod installed.
 
-![example](https://user-images.githubusercontent.com/68478692/150698721-4bc8adae-b9b4-44a2-b741-2b72d5c80e46.png)
+![example](https://github.com/EcoBuilder13/dark-graph/assets/68478692/a34d97c6-62b4-46b1-be50-ecab1ecab1cb)
 
 
 ## Inspiration
