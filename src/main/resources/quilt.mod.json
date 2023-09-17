@@ -6,7 +6,7 @@
 		"version": "${version}",
 		"metadata": {
 			"name": "Dark Graph",
-			"description": "Changes the debug frame graphs to use a dark theme.",
+			"description": "A client mod that changes the debug graphs to use a dark theme.",
 			"contributors": {
 				"EcoBuilder13": "Owner"
 			},
@@ -27,7 +27,7 @@
 			},
 			{
 				"id": "quilt_loader",
-				"versions": ">=0.18.0"
+				"versions": ">=0.19.3"
 			}
 		]
 	},

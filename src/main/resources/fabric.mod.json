@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Dark Graph",
-  "description": "Changes the debug frame graphs to use a dark theme.",
+  "description": "A client mod that changes the debug graphs to use a dark theme.",
   "authors": [
     "EcoBuilder13"
   ],
@@ -14,7 +14,7 @@
     "issues": "https://github.com/EcoBuilder13/dark-graph/issues"
   },
 
-  "license": "BSD",
+  "license": "BSD-3-Clause",
   "icon": "assets/darkgraph/icon.png",
 
   "environment": "client",
@@ -24,7 +24,7 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.18",
+    "fabricloader": ">=0.14.22",
     "minecraft": "1.20.x"
   }
 }

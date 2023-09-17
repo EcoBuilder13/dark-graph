@@ -4,7 +4,7 @@
   "package": "net.mchorizons.darkgraph.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "DebugHudMixin"
+    "DrawContextMixin"
   ],
   "injectors": {
     "defaultRequire": 1
