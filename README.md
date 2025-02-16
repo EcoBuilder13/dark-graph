@@ -1,5 +1,5 @@
 # Dark Graph
-[![build](https://img.shields.io/github/actions/workflow/status/EcoBuilder13/dark-graph/build.yml?branch=1.20.x&logo=github&style=for-the-badge)](https://github.com/EcoBuilder13/dark-graph/actions) [![modrinth](https://img.shields.io/modrinth/dt/dark-graph?logo=modrinth&style=for-the-badge)](https://modrinth.com/mod/dark-graph)
+[![build](https://img.shields.io/github/actions/workflow/status/EcoBuilder13/dark-graph/build.yml?branch=1.21.x&logo=github&style=for-the-badge)](https://github.com/EcoBuilder13/dark-graph/actions) [![modrinth](https://img.shields.io/modrinth/dt/dark-graph?logo=modrinth&style=for-the-badge)](https://modrinth.com/mod/dark-graph)
 
 A client mod that changes the debug graphs to use a dark theme. To access the frame time and Milliseconds per Tick (MSPT)/TPS graphs hold `F3` then press `2`, to switch to the network ping and bandwidth graphs hold `F3` then press `3`. The last open debug graph will stay open when you close the debug menu and you can select a graph either when opening the menu or while it is already open. Enter the keybind for the current open graph to toggle it off. For versions prior to 1.20.2 hold `alt` then press `F3` to access the frame time and MSPT graphs. 
 
