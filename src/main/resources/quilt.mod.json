@@ -7,11 +7,14 @@
 		"depends": [
 			{
 				"id": "minecraft",
-				"versions": "1.21.x"
+				"versions": [
+					">=1.21.6",
+					"<1.22"
+				]
 			},
 			{
 				"id": "quilt_loader",
-				"versions": ">=0.26.0"
+				"versions": ">=0.29.0"
 			}
 		],
 		"intermediate_mappings": "net.fabricmc:intermediary",

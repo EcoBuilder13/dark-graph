@@ -13,13 +13,13 @@ public class DrawContextMixin {
 
     //background color: -1873784752
 
-    @ModifyArg(method="drawHorizontalLine(Lnet/minecraft/client/render/RenderLayer;IIII)V", at=@At(value="INVOKE", target="Lnet/minecraft/client/gui/DrawContext;fill(Lnet/minecraft/client/render/RenderLayer;IIIII)V"), index=5)
-    private int drawHorizontalLine(int e) {
+    @ModifyArg(method="drawHorizontalLine", at=@At(value="INVOKE", target="Lnet/minecraft/client/gui/DrawContext;fill(IIIII)V"), index=4)
+    private int drawHorizontalLine(int color) {
         return -1873784742;
     }
 
-    @ModifyArg(method="drawVerticalLine(Lnet/minecraft/client/render/RenderLayer;IIII)V", at=@At(value="INVOKE", target="Lnet/minecraft/client/gui/DrawContext;fill(Lnet/minecraft/client/render/RenderLayer;IIIII)V"), index=5)
-    private int drawVerticalLine(int e) {
+    @ModifyArg(method="drawVerticalLine", at=@At(value="INVOKE", target="Lnet/minecraft/client/gui/DrawContext;fill(IIIII)V"), index=4)
+    private int drawVerticalLine(int color) {
         return -1873784742;
     }
 }
