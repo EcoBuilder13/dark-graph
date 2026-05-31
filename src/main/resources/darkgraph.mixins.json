@@ -1,11 +1,12 @@
 {
-	"required": true,
-	"package": "net.mchorizons.darkgraph.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"client": [
-		"DrawContextMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "net.mchorizons.darkgraph.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "AbstractDebugChartMixin",
+    "FpsDebugChartMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
